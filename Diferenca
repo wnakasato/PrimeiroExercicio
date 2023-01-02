@@ -1,0 +1,22 @@
+programa {
+  funcao inicio() {
+    
+inteiro numero1, numero2, numero3, numero4, diferenca
+
+    escreva ( "\nDigite o primeiro numero: " )
+    leia (numero1)
+
+    escreva ( "\nDigite o segundo numero: " )
+    leia (numero2)
+
+    escreva ( "\nDigite o terceiro numero: " )
+    leia (numero3)
+
+    escreva ( "\nDigite o quarto número: " )
+    leia (numero4)
+
+    diferenca = (numero1 * numero2) - (numero3 * numero4)
+    escreva ( "\nA diferença é: " ,diferenca)
+    
+  }
+}
